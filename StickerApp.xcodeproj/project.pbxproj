@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1FCD0401FBFDD8C009FCDFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCD03F1FBFDD8C009FCDFE /* AppDelegate.swift */; };
+		A1FCD0471FBFDD8C009FCDFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FCD0461FBFDD8C009FCDFE /* Assets.xcassets */; };
+		A1FCD04A1FBFDD8C009FCDFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FCD0481FBFDD8C009FCDFE /* LaunchScreen.storyboard */; };
+		A1FCD0551FBFE277009FCDFE /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCD0541FBFE277009FCDFE /* CreationViewController.swift */; };
+		A1FCD0571FBFE2AC009FCDFE /* StickersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCD0561FBFE2AC009FCDFE /* StickersCollectionViewController.swift */; };
+		A1FCD05A1FBFE330009FCDFE /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCD0591FBFE330009FCDFE /* StickerCollectionViewCell.swift */; };
+		A1FCD05C1FBFE358009FCDFE /* StickerOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCD05B1FBFE358009FCDFE /* StickerOptionsView.swift */; };
+		A1FCD05E1FBFE376009FCDFE /* PhotoOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCD05D1FBFE376009FCDFE /* PhotoOptionsView.swift */; };
+		A1FCD0601FBFE397009FCDFE /* ShareOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCD05F1FBFE397009FCDFE /* ShareOptionsView.swift */; };
+		A1FCD0621FBFE3B9009FCDFE /* MessageOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCD0611FBFE3B9009FCDFE /* MessageOverlayView.swift */; };
+		A1FCD0691FBFE44E009FCDFE /* UIColor+HEXString.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FCD0661FBFE44E009FCDFE /* UIColor+HEXString.m */; };
+		A1FCD06A1FBFE44E009FCDFE /* UILabel+AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCD0671FBFE44E009FCDFE /* UILabel+AttributedText.swift */; };
+		A1FCD06B1FBFE44E009FCDFE /* UIDevice+DeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCD0681FBFE44E009FCDFE /* UIDevice+DeviceList.swift */; };
+		D9AD3986515FC87F74E03DE9 /* Pods_StickerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1568C9E00936F32079C6229C /* Pods_StickerApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1568C9E00936F32079C6229C /* Pods_StickerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StickerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		742624F500A44137477D8DE4 /* Pods-StickerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickerApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StickerApp/Pods-StickerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A1FCD03C1FBFDD8C009FCDFE /* StickerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FCD03F1FBFDD8C009FCDFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1FCD0461FBFDD8C009FCDFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1FCD0491FBFDD8C009FCDFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1FCD04B1FBFDD8D009FCDFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FCD0541FBFE277009FCDFE /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
+		A1FCD0561FBFE2AC009FCDFE /* StickersCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickersCollectionViewController.swift; sourceTree = "<group>"; };
+		A1FCD0591FBFE330009FCDFE /* StickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1FCD05B1FBFE358009FCDFE /* StickerOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerOptionsView.swift; sourceTree = "<group>"; };
+		A1FCD05D1FBFE376009FCDFE /* PhotoOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoOptionsView.swift; sourceTree = "<group>"; };
+		A1FCD05F1FBFE397009FCDFE /* ShareOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareOptionsView.swift; sourceTree = "<group>"; };
+		A1FCD0611FBFE3B9009FCDFE /* MessageOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageOverlayView.swift; sourceTree = "<group>"; };
+		A1FCD0641FBFE44D009FCDFE /* StickerApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StickerApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1FCD0651FBFE44E009FCDFE /* UIColor+HEXString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEXString.h"; sourceTree = "<group>"; };
+		A1FCD0661FBFE44E009FCDFE /* UIColor+HEXString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEXString.m"; sourceTree = "<group>"; };
+		A1FCD0671FBFE44E009FCDFE /* UILabel+AttributedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+AttributedText.swift"; sourceTree = "<group>"; };
+		A1FCD0681FBFE44E009FCDFE /* UIDevice+DeviceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+DeviceList.swift"; sourceTree = "<group>"; };
+		F58B732DE2AFB488465CC80C /* Pods-StickerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickerApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StickerApp/Pods-StickerApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1FCD0391FBFDD8C009FCDFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AD3986515FC87F74E03DE9 /* Pods_StickerApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD64FF89A741DB9406B9137 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				742624F500A44137477D8DE4 /* Pods-StickerApp.debug.xcconfig */,
+				F58B732DE2AFB488465CC80C /* Pods-StickerApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1FCD0331FBFDD8C009FCDFE = {
+			isa = PBXGroup;
+			children = (
+				A1FCD03E1FBFDD8C009FCDFE /* StickerApp */,
+				A1FCD03D1FBFDD8C009FCDFE /* Products */,
+				5AD64FF89A741DB9406B9137 /* Pods */,
+				E3BDCF6479D8CAE61F39DA3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1FCD03D1FBFDD8C009FCDFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FCD03C1FBFDD8C009FCDFE /* StickerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FCD03E1FBFDD8C009FCDFE /* StickerApp */ = {
+			isa = PBXGroup;
+			children = (
+				A1FCD0631FBFE3E1009FCDFE /* Utility */,
+				A1FCD0581FBFE2FE009FCDFE /* Views */,
+				A1FCD0531FBFE20C009FCDFE /* ViewControllers */,
+				A1FCD03F1FBFDD8C009FCDFE /* AppDelegate.swift */,
+				A1FCD0461FBFDD8C009FCDFE /* Assets.xcassets */,
+				A1FCD0481FBFDD8C009FCDFE /* LaunchScreen.storyboard */,
+				A1FCD04B1FBFDD8D009FCDFE /* Info.plist */,
+			);
+			path = StickerApp;
+			sourceTree = "<group>";
+		};
+		A1FCD0531FBFE20C009FCDFE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1FCD0541FBFE277009FCDFE /* CreationViewController.swift */,
+				A1FCD0561FBFE2AC009FCDFE /* StickersCollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A1FCD0581FBFE2FE009FCDFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1FCD0591FBFE330009FCDFE /* StickerCollectionViewCell.swift */,
+				A1FCD05B1FBFE358009FCDFE /* StickerOptionsView.swift */,
+				A1FCD05D1FBFE376009FCDFE /* PhotoOptionsView.swift */,
+				A1FCD05F1FBFE397009FCDFE /* ShareOptionsView.swift */,
+				A1FCD0611FBFE3B9009FCDFE /* MessageOverlayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1FCD0631FBFE3E1009FCDFE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A1FCD0651FBFE44E009FCDFE /* UIColor+HEXString.h */,
+				A1FCD0661FBFE44E009FCDFE /* UIColor+HEXString.m */,
+				A1FCD0681FBFE44E009FCDFE /* UIDevice+DeviceList.swift */,
+				A1FCD0671FBFE44E009FCDFE /* UILabel+AttributedText.swift */,
+				A1FCD0641FBFE44D009FCDFE /* StickerApp-Bridging-Header.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E3BDCF6479D8CAE61F39DA3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1568C9E00936F32079C6229C /* Pods_StickerApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1FCD03B1FBFDD8C009FCDFE /* StickerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FCD04E1FBFDD8D009FCDFE /* Build configuration list for PBXNativeTarget "StickerApp" */;
+			buildPhases = (
+				D4AE7BA652E1178AD1E03C08 /* [CP] Check Pods Manifest.lock */,
+				A1FCD0381FBFDD8C009FCDFE /* Sources */,
+				A1FCD0391FBFDD8C009FCDFE /* Frameworks */,
+				A1FCD03A1FBFDD8C009FCDFE /* Resources */,
+				87A74AAF37B7476ABFB821C5 /* [CP] Embed Pods Frameworks */,
+				CF408CEABFE8A731C2EB8D14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerApp;
+			productName = StickerApp;
+			productReference = A1FCD03C1FBFDD8C009FCDFE /* StickerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1FCD0341FBFDD8C009FCDFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Francisco Ochoa";
+				TargetAttributes = {
+					A1FCD03B1FBFDD8C009FCDFE = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A1FCD0371FBFDD8C009FCDFE /* Build configuration list for PBXProject "StickerApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1FCD0331FBFDD8C009FCDFE;
+			productRefGroup = A1FCD03D1FBFDD8C009FCDFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1FCD03B1FBFDD8C009FCDFE /* StickerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1FCD03A1FBFDD8C009FCDFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FCD04A1FBFDD8C009FCDFE /* LaunchScreen.storyboard in Resources */,
+				A1FCD0471FBFDD8C009FCDFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87A74AAF37B7476ABFB821C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StickerApp/Pods-StickerApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StickerApp/Pods-StickerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF408CEABFE8A731C2EB8D14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StickerApp/Pods-StickerApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4AE7BA652E1178AD1E03C08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StickerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1FCD0381FBFDD8C009FCDFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FCD0401FBFDD8C009FCDFE /* AppDelegate.swift in Sources */,
+				A1FCD0551FBFE277009FCDFE /* CreationViewController.swift in Sources */,
+				A1FCD05A1FBFE330009FCDFE /* StickerCollectionViewCell.swift in Sources */,
+				A1FCD06A1FBFE44E009FCDFE /* UILabel+AttributedText.swift in Sources */,
+				A1FCD0571FBFE2AC009FCDFE /* StickersCollectionViewController.swift in Sources */,
+				A1FCD06B1FBFE44E009FCDFE /* UIDevice+DeviceList.swift in Sources */,
+				A1FCD0691FBFE44E009FCDFE /* UIColor+HEXString.m in Sources */,
+				A1FCD0601FBFE397009FCDFE /* ShareOptionsView.swift in Sources */,
+				A1FCD0621FBFE3B9009FCDFE /* MessageOverlayView.swift in Sources */,
+				A1FCD05E1FBFE376009FCDFE /* PhotoOptionsView.swift in Sources */,
+				A1FCD05C1FBFE358009FCDFE /* StickerOptionsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1FCD0481FBFDD8C009FCDFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FCD0491FBFDD8C009FCDFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1FCD04C1FBFDD8D009FCDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1FCD04D1FBFDD8D009FCDFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1FCD04F1FBFDD8D009FCDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742624F500A44137477D8DE4 /* Pods-StickerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BLDBQEQY6P;
+				INFOPLIST_FILE = StickerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fochoa.StickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StickerApp/Utility/StickerApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1FCD0501FBFDD8D009FCDFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58B732DE2AFB488465CC80C /* Pods-StickerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BLDBQEQY6P;
+				INFOPLIST_FILE = StickerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fochoa.StickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StickerApp/Utility/StickerApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1FCD0371FBFDD8C009FCDFE /* Build configuration list for PBXProject "StickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FCD04C1FBFDD8D009FCDFE /* Debug */,
+				A1FCD04D1FBFDD8D009FCDFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FCD04E1FBFDD8D009FCDFE /* Build configuration list for PBXNativeTarget "StickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FCD04F1FBFDD8D009FCDFE /* Debug */,
+				A1FCD0501FBFDD8D009FCDFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1FCD0341FBFDD8C009FCDFE /* Project object */;
+}
